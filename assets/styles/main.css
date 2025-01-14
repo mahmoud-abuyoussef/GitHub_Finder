@@ -50,3 +50,38 @@ header img {
   width: 40px;
   cursor: pointer;
 }
+section {
+  padding: 70px 0;
+}
+section .form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+section .form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 4px;
+  outline: none;
+}
+section .form button {
+  padding: 10px;
+  color: white;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 4px;
+}
+@media (min-width: 992px) {
+  section .form input {
+    width: 50%;
+  }
+}
+.repos-list span {
+  display: block;
+  text-align: center;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 30px;
+}

@@ -12,6 +12,11 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   background-color: var(--bg-color);
 }
+.dark-theme {
+  --text-color: white;
+  --btn-color: #3a6d8c;
+  --bg-color: #001f3f;
+}
 .container {
   padding: 0 15px;
   margin: auto;

@@ -62,17 +62,17 @@ section .form {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 section .form input {
   flex: 1;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid rgb(0 0 0 / 0.1);
   border-radius: 4px;
   outline: none;
 }
 section .form button {
-  padding: 10px;
+  padding: 15px;
   color: white;
   background-color: var(--btn-color);
   border: none;
@@ -89,4 +89,51 @@ section .form button {
   color: var(--text-color);
   font-weight: bold;
   font-size: 30px;
+}
+section span.error {
+  color: red;
+}
+section .user-data {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+section .user-data .data {
+  flex: 1;
+}
+section .user-data p {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--text-color);
+}
+section .user-data a {
+  display: block;
+  line-height: 1.6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--text-color);
+}
+section .user-data img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+section .user-data .user-repos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px 35px;
+  margin-top: 20px;
+}
+section .user-data li {
+  color: var(--text-color);
+}
+section .user-data .repo {
+  padding: 10px;
+  border-radius: 4px;
+  color: white !important;
+  margin-bottom: 10px;
+  background-color: var(--btn-color);
 }

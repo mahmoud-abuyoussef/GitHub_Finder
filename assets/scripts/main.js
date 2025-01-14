@@ -30,9 +30,8 @@ function getUserRepos() {
           <div class="user-data">
           <div class="avatar">
             <img src=${data.avatar_url} />
-            <span>${data.name}</span>
+            <p class="username">${data.name}</p>
             <a href=${data.url}>GitHub Account</a>
-            <a href=${data.blog}>Portfolio Website</a>
           </div>
             <div class="data">
               <p>${data.name} Repos:</p>

@@ -4,8 +4,8 @@
   "theme_color": "#048d5a",
   "background_color": "#048d5a",
   "display": "standalone",
-  "orientation": "Any",
-  "scope": "/",
+  "orientation": "any",
+  "scope": "/GitHub_Finder/",
   "start_url": "https://mahmoud-abuyoussef.github.io/GitHub_Finder/",
   "icons": [
     {

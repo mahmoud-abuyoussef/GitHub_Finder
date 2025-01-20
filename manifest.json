@@ -7,6 +7,7 @@
   "orientation": "any",
   "scope": "/GitHub_Finder/",
   "start_url": "https://mahmoud-abuyoussef.github.io/GitHub_Finder/",
+  "id": "https://mahmoud-abuyoussef.github.io/GitHub_Finder/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
